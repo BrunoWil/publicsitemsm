@@ -223,13 +223,33 @@
             .lead { font-size: 24px; }
         }
     </style>
-<link rel="modulepreload" href="/publicsitemsm/msmadvogados-cfceeb6b7aa298a3.js" crossorigin="anonymous"><link rel="preload" href="/publicsitemsm/msmadvogados-cfceeb6b7aa298a3_bg.wasm" crossorigin="anonymous" as="fetch" type="application/wasm"></head>
+    <style>
+        /* Animação de Fade-in para o conteúdo principal */
+        @keyframes fadeInContent {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        .fade-in-content {
+            animation: fadeInContent 0.5s ease-out forwards;
+        }
+
+        /* Animação de Slide-in para os cards de serviço */
+        @keyframes slideIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .animate-card {
+            animation: slideIn 0.6s ease-out forwards;
+            opacity: 0; /* Garante que o elemento esteja invisível antes da animação */
+        }
+    </style>
+<link rel="modulepreload" href="/publicsitemsm/msmadvogados-abd615a021ac29e.js" crossorigin="anonymous"><link rel="preload" href="/publicsitemsm/msmadvogados-abd615a021ac29e_bg.wasm" crossorigin="anonymous" as="fetch" type="application/wasm"></head>
 <body>
     <!-- Yew irá injetar a aplicação aqui automaticamente -->
 
 <script type="module">
-import init, * as bindings from '/publicsitemsm/msmadvogados-cfceeb6b7aa298a3.js';
-const wasm = await init({ module_or_path: '/publicsitemsm/msmadvogados-cfceeb6b7aa298a3_bg.wasm' });
+import init, * as bindings from '/publicsitemsm/msmadvogados-abd615a021ac29e.js';
+const wasm = await init({ module_or_path: '/publicsitemsm/msmadvogados-abd615a021ac29e_bg.wasm' });
 
 
 window.wasmBindings = bindings;

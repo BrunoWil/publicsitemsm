@@ -5,25 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MSM Advogados</title>
     <base href="/publicsitemsm/" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600&family=Inter:wght@300;400;600&family=Playfair+Display:wght@600&family=Source+Sans+Pro:wght@400&display=swap" rel="stylesheet">
+
     <style>
         :root {
-            /* Apple Color Tokens */
-            --colors-primary: #0066cc;
-            --colors-primary-focus: #0071e3;
-            --colors-canvas: #ffffff;
-            --colors-canvas-parchment: #f5f5f7;
-            --colors-surface-black: #000000;
-            --colors-ink: #1d1d1f;
-            --colors-on-dark: #ffffff;
-            --colors-hairline: #e0e0e0;
-            --colors-ink-muted-80: #333333;
+            /* Cores do Design */
+            --primary: #0f172a;
+            --secondary: #1e293b;
+            --gold: #c8a96b;
+            --white: #ffffff;
+            --gray: #f5f5f5;
+
+            /* Mapeamento para o sistema anterior (para compatibilidade temporária) */
+            --colors-primary: var(--gold); /* Usando gold como cor de destaque interativa */
+            --colors-primary-focus: #b89a5b; /* Um tom um pouco mais escuro para foco */
+            --colors-canvas: var(--white);
+            --colors-canvas-parchment: var(--gray);
+            --colors-surface-black: var(--primary); /* Usando primary para elementos escuros */
+            --colors-ink: var(--primary);
+            --colors-on-dark: var(--white);
+            --colors-hairline: #e0e0e0; /* Manter um hairline suave */
+            --colors-ink-muted-80: #333333; /* Manter tons de cinza para texto */
             --colors-ink-muted-48: #7a7a7a;
 
-            /* Typography */
-            --font-display: "SF Pro Display", system-ui, -apple-system, sans-serif;
-            --font-text: "SF Pro Text", system-ui, -apple-system, sans-serif;
+            /* Tipografia */
+            --font-display: "Playfair Display", serif;
+            --font-text: "Inter", sans-serif;
 
-            /* Spacing & Radii */
+            /* Espaçamento e Bordas */
             --spacing-section: 80px;
             --spacing-lg: 24px;
             --rounded-lg: 18px;
@@ -32,11 +44,11 @@
 
         html {
             scroll-behavior: smooth;
-            scroll-padding-top: 52px; /* Previne que o cabeçalho fixo cubra o topo das seções */
+            scroll-padding-top: 60px; /* Ajustado para a nova altura da navbar se necessário */
         }
 
         body {
-            font-family: var(--font-text);
+            font-family: var(--font-text); /* Inter */
             margin: 0;
             padding: 0;
             background-color: var(--colors-canvas);
@@ -46,7 +58,7 @@
             line-height: 1.47;
             letter-spacing: -0.374px;
             -webkit-font-smoothing: antialiased;
-            padding-top: 52px; /* Espaço para a navbar fixa */
+            padding-top: 60px; /* Espaço para a navbar fixa */
         }
 
         /* Main Navigation: Frosted Glass */
@@ -55,8 +67,8 @@
             top: 0;
             left: 0;
             width: 100%;
-            height: 52px;
-            background-color: rgba(245, 245, 247, 0.72);
+            height: 60px; /* Ajustado para um pouco mais de altura */
+            background-color: rgba(15, 23, 42, 0.9); /* Usando --primary com transparência */
             backdrop-filter: saturate(180%) blur(20px);
             -webkit-backdrop-filter: saturate(180%) blur(20px);
             border-bottom: 1px solid var(--colors-hairline);
@@ -75,10 +87,10 @@
         }
         .main-nav-brand {
             font-family: var(--font-display);
-            font-size: 21px;
+            font-size: 24px; /* Aumentado para destaque */
             font-weight: 600;
             letter-spacing: 0.231px;
-            color: var(--colors-ink);
+            color: var(--gold); /* Cor de destaque para a marca */
             text-decoration: none;
         }
         .main-nav-links {
@@ -87,7 +99,8 @@
             align-items: center;
         }
         .main-nav-links a.text-link {
-            color: var(--colors-ink);
+            font-family: var(--font-text); /* Inter */
+            color: var(--white); /* Links brancos na nav escura */
             text-decoration: none;
             font-size: 12px;
             opacity: 0.8;
@@ -99,12 +112,12 @@
 
         /* Sections: Edge-to-edge product tiles */
         .tile-light {
-            background-color: var(--colors-canvas);
+            background-color: var(--white);
             padding: var(--spacing-section) 20px;
             text-align: center;
         }
         .tile-parchment {
-            background-color: var(--colors-canvas-parchment);
+            background-color: var(--gray);
             padding: var(--spacing-section) 20px;
             text-align: center;
         }
@@ -243,13 +256,13 @@
             opacity: 0; /* Garante que o elemento esteja invisível antes da animação */
         }
     </style>
-<link rel="modulepreload" href="/publicsitemsm/msmadvogados-abd615a021ac29e.js" crossorigin="anonymous"><link rel="preload" href="/publicsitemsm/msmadvogados-abd615a021ac29e_bg.wasm" crossorigin="anonymous" as="fetch" type="application/wasm"></head>
+<link rel="modulepreload" href="/publicsitemsm/msmadvogados-f575c232d1946aa8.js" crossorigin="anonymous"><link rel="preload" href="/publicsitemsm/msmadvogados-f575c232d1946aa8_bg.wasm" crossorigin="anonymous" as="fetch" type="application/wasm"></head>
 <body>
     <!-- Yew irá injetar a aplicação aqui automaticamente -->
 
 <script type="module">
-import init, * as bindings from '/publicsitemsm/msmadvogados-abd615a021ac29e.js';
-const wasm = await init({ module_or_path: '/publicsitemsm/msmadvogados-abd615a021ac29e_bg.wasm' });
+import init, * as bindings from '/publicsitemsm/msmadvogados-f575c232d1946aa8.js';
+const wasm = await init({ module_or_path: '/publicsitemsm/msmadvogados-f575c232d1946aa8_bg.wasm' });
 
 
 window.wasmBindings = bindings;

@@ -1,0 +1,35 @@
+{
+  "name": "MSM",
+  "full_name": "MSM Advogados",
+  "experience": "Mais de 10 anos no mercado.",
+  "slogan": "Especialistas na defesa dos seus direitos.",
+  "services_summary": "Trabalhista, Consumidor, Previdenciário, Bancário, Família e Civil.",
+  "services": [
+    {
+      "title": "Trabalhista",
+      "description": "Assessoria completa em questões trabalhistas."
+    },
+    {
+      "title": "Consumidor",
+      "description": "Proteção e defesa dos direitos do consumidor."
+    },
+    {
+      "title": "Previdenciário",
+      "description": "Consultoria em benefícios e aposentadorias."
+    },
+    {
+      "title": "Bancário",
+      "description": "Soluções jurídicas para questões financeiras."
+    },
+    {
+      "title": "Família",
+      "description": "Divórcios, guarda e apoio jurídico familiar."
+    },
+    {
+      "title": "Civil",
+      "description": "Atuação ampla em questões do direito civil."
+    }
+  ],
+  "whatsapp": "(85) 98750-8380",
+  "whatsapp_link": "https://wa.me/5585987508380"
+}

@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MSM Advogados</title>
+    <base href="/publicsitemsm/" />
+    <style>
+        :root {
+            /* Apple Color Tokens */
+            --colors-primary: #0066cc;
+            --colors-primary-focus: #0071e3;
+            --colors-canvas: #ffffff;
+            --colors-canvas-parchment: #f5f5f7;
+            --colors-surface-black: #000000;
+            --colors-ink: #1d1d1f;
+            --colors-on-dark: #ffffff;
+            --colors-hairline: #e0e0e0;
+            --colors-ink-muted-80: #333333;
+            --colors-ink-muted-48: #7a7a7a;
+
+            /* Typography */
+            --font-display: "SF Pro Display", system-ui, -apple-system, sans-serif;
+            --font-text: "SF Pro Text", system-ui, -apple-system, sans-serif;
+
+            /* Spacing & Radii */
+            --spacing-section: 80px;
+            --spacing-lg: 24px;
+            --rounded-lg: 18px;
+            --rounded-pill: 9999px;
+        }
+
+        html {
+            scroll-behavior: smooth;
+            scroll-padding-top: 52px; /* Previne que o cabeçalho fixo cubra o topo das seções */
+        }
+
+        body {
+            font-family: var(--font-text);
+            margin: 0;
+            padding: 0;
+            background-color: var(--colors-canvas);
+            color: var(--colors-ink);
+            font-size: 17px;
+            font-weight: 400;
+            line-height: 1.47;
+            letter-spacing: -0.374px;
+            -webkit-font-smoothing: antialiased;
+            padding-top: 52px; /* Espaço para a navbar fixa */
+        }
+
+        /* Main Navigation: Frosted Glass */
+        .main-nav-frosted {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 52px;
+            background-color: rgba(245, 245, 247, 0.72);
+            backdrop-filter: saturate(180%) blur(20px);
+            -webkit-backdrop-filter: saturate(180%) blur(20px);
+            border-bottom: 1px solid var(--colors-hairline);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 9999;
+        }
+        .main-nav-content {
+            width: 100%;
+            max-width: 1068px;
+            padding: 0 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .main-nav-brand {
+            font-family: var(--font-display);
+            font-size: 21px;
+            font-weight: 600;
+            letter-spacing: 0.231px;
+            color: var(--colors-ink);
+            text-decoration: none;
+        }
+        .main-nav-links {
+            display: flex;
+            gap: 24px;
+            align-items: center;
+        }
+        .main-nav-links a.text-link {
+            color: var(--colors-ink);
+            text-decoration: none;
+            font-size: 12px;
+            opacity: 0.8;
+            transition: opacity 0.2s;
+        }
+        .main-nav-links a.text-link:hover {
+            opacity: 1;
+        }
+
+        /* Sections: Edge-to-edge product tiles */
+        .tile-light {
+            background-color: var(--colors-canvas);
+            padding: var(--spacing-section) 20px;
+            text-align: center;
+        }
+        .tile-parchment {
+            background-color: var(--colors-canvas-parchment);
+            padding: var(--spacing-section) 20px;
+            text-align: center;
+        }
+        .hero-section {
+            min-height: 60vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        /* Typography Scales */
+        .hero-display {
+            font-family: var(--font-display);
+            font-size: 56px;
+            font-weight: 600;
+            line-height: 1.07;
+            letter-spacing: -0.28px;
+            margin: 0 0 16px 0;
+        }
+        .display-lg {
+            font-family: var(--font-display);
+            font-size: 40px;
+            font-weight: 600;
+            line-height: 1.1;
+            letter-spacing: 0;
+            margin: 0 0 16px 0;
+        }
+        .lead {
+            font-family: var(--font-display);
+            font-size: 28px;
+            font-weight: 400;
+            line-height: 1.14;
+            letter-spacing: 0.196px;
+            margin: 0 auto 32px auto;
+            max-width: 800px;
+        }
+
+        /* Components: store-utility-card */
+        .grid-container {
+            max-width: 1068px;
+            margin: 0 auto;
+        }
+        .service-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 24px;
+            margin-top: 48px;
+            text-align: left;
+        }
+        .store-utility-card {
+            background-color: var(--colors-canvas);
+            border: 1px solid var(--colors-hairline);
+            border-radius: var(--rounded-lg);
+            padding: var(--spacing-lg);
+            /* No decorative shadow in Apple's design system */
+        }
+        .store-utility-card h4 {
+            font-size: 17px;
+            font-weight: 600;
+            margin: 0 0 8px 0;
+        }
+        .store-utility-card p {
+            color: var(--colors-ink-muted-80);
+            margin: 0;
+        }
+
+        /* Components: button-primary */
+        .button-primary {
+            display: inline-block;
+            background-color: var(--colors-primary);
+            color: var(--colors-on-dark);
+            font-size: 17px;
+            font-weight: 400;
+            text-decoration: none;
+            padding: 11px 22px;
+            border-radius: var(--rounded-pill);
+            transition: transform 0.1s ease-in-out;
+        }
+        .button-primary:active {
+            /* The brand system micro-interaction is a 0.95 scale down on press */
+            transform: scale(0.95);
+        }
+        .button-primary:focus-visible {
+            outline: 2px solid var(--colors-primary-focus);
+            outline-offset: 2px;
+        }
+
+        /* Components: button-utility (Mini Pill for Nav) */
+        .button-utility {
+            background-color: var(--colors-primary);
+            color: var(--colors-on-dark);
+            font-size: 12px;
+            padding: 4px 11px;
+            border-radius: var(--rounded-pill);
+            text-decoration: none;
+        }
+
+        /* Components: footer */
+        .footer {
+            text-align: center;
+            padding: 64px 20px;
+            background-color: var(--colors-canvas-parchment);
+            color: var(--colors-ink-muted-48);
+            font-size: 12px;
+            letter-spacing: -0.12px;
+        }
+        .footer p { margin: 4px 0; }
+
+        /* Responsividade refinada Apple */
+        @media (max-width: 735px) {
+            .main-nav-links a.text-link {
+                display: none; /* Esconde os links de texto no celular para focar na ação */
+            }
+            .hero-display { font-size: 44px; }
+            .display-lg { font-size: 32px; }
+            .lead { font-size: 24px; }
+        }
+    </style>
+<link rel="modulepreload" href="/publicsitemsm/msmadvogados-b2bfeee095b8108.js" crossorigin="anonymous"><link rel="preload" href="/publicsitemsm/msmadvogados-b2bfeee095b8108_bg.wasm" crossorigin="anonymous" as="fetch" type="application/wasm"></head>
+<body>
+    <!-- Yew irá injetar a aplicação aqui automaticamente -->
+
+<script type="module">
+import init, * as bindings from '/publicsitemsm/msmadvogados-b2bfeee095b8108.js';
+const wasm = await init({ module_or_path: '/publicsitemsm/msmadvogados-b2bfeee095b8108_bg.wasm' });
+
+
+window.wasmBindings = bindings;
+
+
+dispatchEvent(new CustomEvent("TrunkApplicationStarted", {detail: {wasm}}));
+
+</script></body>
+</html>

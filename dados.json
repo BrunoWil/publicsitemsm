@@ -28,50 +28,50 @@
     "titulo": "MSM Advogados",
     "subtitulo": "Mais de 10 anos de experiência",
     "descricao": "Especialistas na defesa dos seus direitos. Atendimento rápido e personalizado.",
-    "imagem": "/assets/imagens/hero-bg.webp",
+    "imagem": "https://raw.githubusercontent.com/BrunoWil/publicsitemsm/main/imagens/hero-bg.webp",
     "botao_texto": "Fale Conosco",
     "botao_link": "https://wa.me/5585986636224"
   },
   "sobre": {
     "titulo": "Quem Somos",
     "descricao": "Com uma década de atuação, a MSM Advogados se destaca pela excelência e dedicação em cada caso. Nossa equipe é composta por profissionais altamente qualificados, prontos para oferecer soluções jurídicas eficazes e personalizadas para você e sua empresa.",
-    "imagem": "/assets/imagens/escritorio.webp"
+    "imagem": "https://raw.githubusercontent.com/BrunoWil/publicsitemsm/main/imagens/escritorio.webp"
   },
   "areas": [
     {
       "titulo": "Direito Trabalhista",
       "descricao": "Assessoria completa em questões trabalhistas, garantindo seus direitos.",
-      "icone": "/assets/icones/trabalhista.png",
+      "icone": "https://raw.githubusercontent.com/BrunoWil/publicsitemsm/main/icones/trabalhista.png",
       "link": "#"
     },
     {
       "titulo": "Direito do Consumidor",
       "descricao": "Proteção e defesa dos direitos do consumidor em diversas situações.",
-      "icone": "/assets/icones/consumidor.png",
+      "icone": "https://raw.githubusercontent.com/BrunoWil/publicsitemsm/main/icones/consumidor.png",
       "link": "#"
     },
     {
       "titulo": "Direito Previdenciário",
       "descricao": "Consultoria especializada em benefícios e aposentadorias.",
-      "icone": "/assets/icones/previdenciario.png",
+      "icone": "https://raw.githubusercontent.com/BrunoWil/publicsitemsm/main/icones/previdenciario.png",
       "link": "#"
     },
     {
       "titulo": "Direito Bancário",
       "descricao": "Soluções jurídicas para questões financeiras e bancárias.",
-      "icone": "/assets/icones/bancario.png",
+      "icone": "https://raw.githubusercontent.com/BrunoWil/publicsitemsm/main/icones/bancario.png",
       "link": "#"
     },
     {
       "titulo": "Direito de Família",
       "descricao": "Divórcios, guarda, pensão alimentícia e apoio jurídico familiar.",
-      "icone": "/assets/icones/familia.png",
+      "icone": "https://raw.githubusercontent.com/BrunoWil/publicsitemsm/main/icones/familia.png",
       "link": "#"
     },
     {
       "titulo": "Direito Civil",
       "descricao": "Atuação ampla em questões do direito civil, contratos e responsabilidade.",
-      "icone": "/assets/icones/civil.png",
+      "icone": "https://raw.githubusercontent.com/BrunoWil/publicsitemsm/main/icones/civil.png",
       "link": "#"
     }
   ],
@@ -80,7 +80,7 @@
       "nome": "Dr. ",
       "cargo": "Sócio Fundador",
       "descricao": "Advogado com vasta experiência em direito civil e trabalhista.",
-      "foto": "/assets/imagens/equipe/bruno.webp",
+      "foto": "https://raw.githubusercontent.com/BrunoWil/publicsitemsm/main/imagens/equipe/bruno.webp",
       "linkedin": "https://www.linkedin.com/in/",
       "email": "lorysnadima@gmail.com"
     }
@@ -88,7 +88,7 @@
   "integridade": {
     "titulo": "Nossa Integridade",
     "descricao": "Na MSM Advogados, a ética e a transparência são pilares fundamentais. Atuamos com total seriedade e compromisso com a justiça.",
-    "documento": "/assets/documentos/codigo-etica.pdf"
+    "documento": "https://raw.githubusercontent.com/BrunoWil/publicsitemsm/main/documentos/codigo-etica.pdf"
   },
   "estatisticas": [
     { "titulo": "Anos de Atuação", "valor": "10+" },

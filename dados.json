@@ -3,8 +3,8 @@
     "nome": "MSM",
     "slogan": "Especialistas na defesa dos seus direitos.",
     "descricao": "MSM Advogados: Mais de 10 anos de experiência em diversas áreas do direito, oferecendo atendimento rápido e personalizado.",
-    "logo": "https://raw.githubusercontent.com/BrunoWil/publicsitemsm/refs/heads/main/assets/imagens/logo.png",
-    "favicon": "https://raw.githubusercontent.com/BrunoWil/publicsitemsm/refs/heads/main/assets/icones/favicon.ico"
+    "logo": "https://raw.githubusercontent.com/BrunoWil/publicsitemsm/refs/heads/main/assets/assets/imagens/logo.png",
+    "favicon": "https://raw.githubusercontent.com/BrunoWil/publicsitemsm/refs/heads/main/assets/assets/icones/favicon.ico"
   },
   "menu": [
     {
@@ -28,50 +28,50 @@
     "titulo": "MSM Advogados",
     "subtitulo": "Mais de 10 anos de experiência",
     "descricao": "Especialistas na defesa dos seus direitos. Atendimento rápido e personalizado.",
-    "imagem": "https://raw.githubusercontent.com/BrunoWil/publicsitemsm/refs/heads/main/imagens/hero-bg.webp",
+    "imagem": "https://raw.githubusercontent.com/BrunoWil/publicsitemsm/refs/heads/main/assets/imagens/hero-bg.webp",
     "botao_texto": "Fale Conosco",
     "botao_link": "https://wa.me/5585986636224"
   },
   "sobre": {
     "titulo": "Quem Somos",
     "descricao": "Com uma década de atuação, a MSM Advogados se destaca pela excelência e dedicação em cada caso. Nossa equipe é composta por profissionais altamente qualificados, prontos para oferecer soluções jurídicas eficazes e personalizadas para você e sua empresa.",
-    "imagem": "https://raw.githubusercontent.com/BrunoWil/publicsitemsm/refs/heads/main/imagens/escritorio.webp"
+    "imagem": "https://raw.githubusercontent.com/BrunoWil/publicsitemsm/refs/heads/main/assets/imagens/escritorio.webp"
   },
   "areas": [
     {
       "titulo": "Direito Trabalhista",
       "descricao": "Assessoria completa em questões trabalhistas, garantindo seus direitos.",
-      "icone": "https://raw.githubusercontent.com/BrunoWil/publicsitemsm/refs/heads/main/icones/trabalhista.png",
+      "icone": "https://raw.githubusercontent.com/BrunoWil/publicsitemsm/refs/heads/main/assets/icones/trabalhista.png",
       "link": "#"
     },
     {
       "titulo": "Direito do Consumidor",
       "descricao": "Proteção e defesa dos direitos do consumidor em diversas situações.",
-      "icone": "https://raw.githubusercontent.com/BrunoWil/publicsitemsm/refs/heads/main/icones/consumidor.png",
+      "icone": "https://raw.githubusercontent.com/BrunoWil/publicsitemsm/refs/heads/main/assets/icones/consumidor.png",
       "link": "#"
     },
     {
       "titulo": "Direito Previdenciário",
       "descricao": "Consultoria especializada em benefícios e aposentadorias.",
-      "icone": "https://raw.githubusercontent.com/BrunoWil/publicsitemsm/refs/heads/main/icones/previdenciario.png",
+      "icone": "https://raw.githubusercontent.com/BrunoWil/publicsitemsm/refs/heads/main/assets/icones/previdenciario.png",
       "link": "#"
     },
     {
       "titulo": "Direito Bancário",
       "descricao": "Soluções jurídicas para questões financeiras e bancárias.",
-      "icone": "https://raw.githubusercontent.com/BrunoWil/publicsitemsm/refs/heads/main/icones/bancario.png",
+      "icone": "https://raw.githubusercontent.com/BrunoWil/publicsitemsm/refs/heads/main/assets/icones/bancario.png",
       "link": "#"
     },
     {
       "titulo": "Direito de Família",
       "descricao": "Divórcios, guarda, pensão alimentícia e apoio jurídico familiar.",
-      "icone": "https://raw.githubusercontent.com/BrunoWil/publicsitemsm/refs/heads/main/icones/familia.png",
+      "icone": "https://raw.githubusercontent.com/BrunoWil/publicsitemsm/refs/heads/main/assets/icones/familia.png",
       "link": "#"
     },
     {
       "titulo": "Direito Civil",
       "descricao": "Atuação ampla em questões do direito civil, contratos e responsabilidade.",
-      "icone": "https://raw.githubusercontent.com/BrunoWil/publicsitemsm/refs/heads/main/icones/civil.png",
+      "icone": "https://raw.githubusercontent.com/BrunoWil/publicsitemsm/refs/heads/main/assets/icones/civil.png",
       "link": "#"
     }
   ],
@@ -80,7 +80,7 @@
       "nome": "Dr. ",
       "cargo": "Sócio Fundador",
       "descricao": "Advogado com vasta experiência em direito civil e trabalhista.",
-      "foto": "https://raw.githubusercontent.com/BrunoWil/publicsitemsm/refs/heads/main/imagens/equipe/bruno.webp",
+      "foto": "https://raw.githubusercontent.com/BrunoWil/publicsitemsm/refs/heads/main/assets/imagens/equipe/bruno.webp",
       "linkedin": "https://www.linkedin.com/in/",
       "email": "lorysnadima@gmail.com"
     }
@@ -88,7 +88,7 @@
   "integridade": {
     "titulo": "Nossa Integridade",
     "descricao": "Na MSM Advogados, a ética e a transparência são pilares fundamentais. Atuamos com total seriedade e compromisso com a justiça.",
-    "documento": "https://raw.githubusercontent.com/BrunoWil/publicsitemsm/refs/heads/main/documentos/codigo-etica.pdf"
+    "documento": "https://raw.githubusercontent.com/BrunoWil/publicsitemsm/refs/heads/main/assets/documentos/codigo-etica.pdf"
   },
   "estatisticas": [
     { "titulo": "Anos de Atuação", "valor": "10+" },
@@ -100,7 +100,7 @@
     {
       "titulo": "Novas Leis Trabalhistas em 2026",
       "resumo": "Entenda as principais mudanças e como elas afetam você.",
-      "imagem": "https://raw.githubusercontent.com/BrunoWil/publicsitemsm/refs/heads/main/assets/imagens/noticias/noticia1.webp",
+      "imagem": "https://raw.githubusercontent.com/BrunoWil/publicsitemsm/refs/heads/main/assets/assets/imagens/noticias/noticia1.webp",
       "data": "2026-05-20",
       "autor": "Equipe MSM",
       "link": "#"

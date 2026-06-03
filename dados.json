@@ -3,8 +3,8 @@
     "nome": "MSM",
     "slogan": "Especialistas na defesa dos seus direitos.",
     "descricao": "MSM Advogados: Mais de 10 anos de experiência em diversas áreas do direito, oferecendo atendimento rápido e personalizado.",
-    "logo": "https://raw.githubusercontent.com/BrunoWil/publicsitemsm/refs/heads/main/assets/assets/imagens/logo.png",
-    "favicon": "https://raw.githubusercontent.com/BrunoWil/publicsitemsm/refs/heads/main/assets/assets/icones/favicon.ico"
+    "logo": "https://raw.githubusercontent.com/BrunoWil/publicsitemsm/refs/heads/main/assets/imagens/logo.png",
+    "favicon": "https://raw.githubusercontent.com/BrunoWil/publicsitemsm/refs/heads/main/assets/icones/favicon.ico"
   },
   "menu": [
     {
@@ -100,7 +100,7 @@
     {
       "titulo": "Novas Leis Trabalhistas em 2026",
       "resumo": "Entenda as principais mudanças e como elas afetam você.",
-      "imagem": "https://raw.githubusercontent.com/BrunoWil/publicsitemsm/refs/heads/main/assets/assets/imagens/noticias/noticia1.webp",
+      "imagem": "https://raw.githubusercontent.com/BrunoWil/publicsitemsm/refs/heads/main/assets/imagens/noticias/noticia1.webp",
       "data": "2026-05-20",
       "autor": "Equipe MSM",
       "link": "#"

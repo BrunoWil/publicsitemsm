@@ -3,8 +3,8 @@
     "nome": "MSM",
     "slogan": "Especialistas na defesa dos seus direitos.",
     "descricao": "MSM Advogados: Mais de 10 anos de experiência em diversas áreas do direito, oferecendo atendimento rápido e personalizado.",
-    "logo": "/assets/imagens/logo.svg",
-    "favicon": "/assets/icones/favicon.ico"
+    "logo": "https://raw.githubusercontent.com/BrunoWil/publicsitemsm/main/assets/imagens/logo.png",
+    "favicon": "https://raw.githubusercontent.com/BrunoWil/publicsitemsm/main/assets/icones/favicon.ico"
   },
   "menu": [
     {
@@ -41,48 +41,48 @@
     {
       "titulo": "Direito Trabalhista",
       "descricao": "Assessoria completa em questões trabalhistas, garantindo seus direitos.",
-      "icone": "/assets/icones/trabalhista.svg",
+      "icone": "/assets/icones/trabalhista.png",
       "link": "#"
     },
     {
       "titulo": "Direito do Consumidor",
       "descricao": "Proteção e defesa dos direitos do consumidor em diversas situações.",
-      "icone": "/assets/icones/consumidor.svg",
+      "icone": "/assets/icones/consumidor.png",
       "link": "#"
     },
     {
       "titulo": "Direito Previdenciário",
       "descricao": "Consultoria especializada em benefícios e aposentadorias.",
-      "icone": "/assets/icones/previdenciario.svg",
+      "icone": "/assets/icones/previdenciario.png",
       "link": "#"
     },
     {
       "titulo": "Direito Bancário",
       "descricao": "Soluções jurídicas para questões financeiras e bancárias.",
-      "icone": "/assets/icones/bancario.svg",
+      "icone": "/assets/icones/bancario.png",
       "link": "#"
     },
     {
       "titulo": "Direito de Família",
       "descricao": "Divórcios, guarda, pensão alimentícia e apoio jurídico familiar.",
-      "icone": "/assets/icones/familia.svg",
+      "icone": "/assets/icones/familia.png",
       "link": "#"
     },
     {
       "titulo": "Direito Civil",
       "descricao": "Atuação ampla em questões do direito civil, contratos e responsabilidade.",
-      "icone": "/assets/icones/civil.svg",
+      "icone": "/assets/icones/civil.png",
       "link": "#"
     }
   ],
   "equipe": [
     {
-      "nome": "Dr. Bruno Wilson",
+      "nome": "Dr. ",
       "cargo": "Sócio Fundador",
       "descricao": "Advogado com vasta experiência em direito civil e trabalhista.",
       "foto": "/assets/imagens/equipe/bruno.webp",
-      "linkedin": "https://www.linkedin.com/in/brunowilson",
-      "email": "bruno.wilson@msmadvogados.com.br"
+      "linkedin": "https://www.linkedin.com/in/",
+      "email": "lorysnadima@gmail.com"
     }
   ],
   "integridade": {
@@ -100,7 +100,7 @@
     {
       "titulo": "Novas Leis Trabalhistas em 2026",
       "resumo": "Entenda as principais mudanças e como elas afetam você.",
-      "imagem": "/assets/imagens/noticias/noticia1.webp",
+      "imagem": "https://raw.githubusercontent.com/BrunoWil/publicsitemsm/main/assets/imagens/noticias/noticia1.webp",
       "data": "2026-05-20",
       "autor": "Equipe MSM",
       "link": "#"
@@ -108,7 +108,7 @@
     {
       "titulo": "Direitos do Consumidor Online",
       "resumo": "Guia completo para compras seguras na internet.",
-      "imagem": "/assets/imagens/noticias/noticia2.webp",
+      "imagem": "https://raw.githubusercontent.com/BrunoWil/publicsitemsm/main/assets/imagens/noticias/noticia2.webp",
       "data": "2026-04-15",
       "autor": "Equipe MSM",
       "link": "#"
@@ -116,10 +116,10 @@
   ],
   "contato": {
     "telefone": "(85) 98663-6224",
-    "email": "contato@msmadvogados.com.br",
+    "email": "lorysnadima@gmail.com",
     "whatsapp": "(85) 98663-6224",
-    "endereco": "Rua Exemplo, 123, Centro, Fortaleza - CE",
-    "google_maps": "https://maps.app.goo.gl/SEU_LINK_DO_MAPA"
+    "endereco": "Av. Des. Moreira, 2807 - Dionísio Torres, Fortaleza - CE, 60170-173",
+    "google_maps": "https://www.google.com/maps/search/?api=1&query=Assembleia+Legislativa+do+Estado+do+Ceara+Fortaleza"
   },
   "rodape": {
     "copyright": "© 2026 MSM Advogados. Todos os direitos reservados.",
@@ -127,11 +127,11 @@
     "redes_sociais": [
       {
         "nome": "LinkedIn",
-        "url": "https://www.linkedin.com/company/msmadvogados"
+        "url": "https://www.linkedin.com/company/"
       },
       {
         "nome": "Instagram",
-        "url": "https://www.instagram.com/msmadvogados"
+        "url": "https://www.instagram.com/"
       }
     ]
   }

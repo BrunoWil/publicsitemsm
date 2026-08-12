@@ -138,8 +138,22 @@
         /* ── HERO ── */
         .hero {
             background-color: var(--ink);
-            background-size: cover;
-            background-position: center;
+            min-height: 62vh;
+            position: relative;
+            overflow: hidden;
+        }
+        .hero-bg-img {
+            position: absolute;
+            inset: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center;
+            z-index: 0; /* Camada 0: Imagem de fundo */
+        }
+        .hero-content {
+            position: relative;
+            z-index: 2; /* Camada 2: Conteúdo de texto e botões */
             min-height: 62vh;
             display: flex;
             flex-direction: column;
@@ -147,8 +161,6 @@
             align-items: center;
             text-align: center;
             padding: 80px 24px 72px;
-            position: relative;
-            overflow: hidden;
         }
         /* escurece a imagem de fundo para o texto ficar legível */
         .hero::after {
@@ -156,9 +168,11 @@
             position: absolute;
             inset: 0;
             background: rgba(10, 10, 10, 0.62);
-            z-index: 0;
+            z-index: 1; /* Camada 1: Overlay escuro */
         }
-        .hero > * { position: relative; z-index: 1; }
+        /* O conteúdo textual e o orb precisam de um contexto de empilhamento para que o orb fique atrás */
+        .hero-content > * { position: relative; }
+
         .hero-orb {
             position: absolute;
             width: 500px; height: 500px;
@@ -166,7 +180,7 @@
             top: 50%; left: 50%;
             transform: translate(-50%, -50%);
             pointer-events: none;
-            z-index: 1;
+            z-index: -1; /* Coloca o orb atrás do conteúdo do hero-content */
             animation: pulseOrb 5s ease-in-out infinite;
         }
         .hero-eyebrow {
@@ -264,7 +278,10 @@
             display: flex;
             justify-content: center;
         }
-        /* direct children of #sobre are handled by the section flex container */
+        #sobre > .about-text,
+        #sobre > .about-img {
+            /* evita que os filhos diretos se comportem errado */
+        }
         /* wrapper interno gerado pelo Yew é direto no section,
            então fazemos o section mesmo ser o flex container */
         #sobre {
@@ -573,13 +590,13 @@
             .footer       { flex-direction: column; gap: 14px; text-align: center; }
         }
     </style>
-<link rel="modulepreload" href="/msmadvogados-5a6958621e2ba6ef.js" crossorigin="anonymous"><link rel="preload" href="/msmadvogados-5a6958621e2ba6ef_bg.wasm" crossorigin="anonymous" as="fetch" type="application/wasm"></head>
+<link rel="modulepreload" href="/msmadvogados-2e43ed1ed27023d5.js" crossorigin="anonymous"><link rel="preload" href="/msmadvogados-2e43ed1ed27023d5_bg.wasm" crossorigin="anonymous" as="fetch" type="application/wasm"></head>
 <body>
     <!-- Yew irá injetar a aplicação aqui automaticamente -->
 
 <script type="module">
-import init, * as bindings from '/msmadvogados-5a6958621e2ba6ef.js';
-const wasm = await init({ module_or_path: '/msmadvogados-5a6958621e2ba6ef_bg.wasm' });
+import init, * as bindings from '/msmadvogados-2e43ed1ed27023d5.js';
+const wasm = await init({ module_or_path: '/msmadvogados-2e43ed1ed27023d5_bg.wasm' });
 
 
 window.wasmBindings = bindings;

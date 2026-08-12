@@ -77,10 +77,26 @@
   ],
   "equipe": [
     {
-      "nome": "Dr. ",
-      "cargo": "Sócio Fundador",
+      "nome": "Dra. Lorena ",
+      "cargo": "Sócio Fundadora",
       "descricao": "Advogado com vasta experiência em direito civil e trabalhista.",
-      "foto": "https://raw.githubusercontent.com/BrunoWil/publicsitemsm/refs/heads/main/assets/imagens/equipe/bruno.webp",
+      "foto": "https://raw.githubusercontent.com/BrunoWil/publicsitemsm/refs/heads/main/assets/imagens/equipe/dra1.webp",
+      "linkedin": "https://www.linkedin.com/in/",
+      "email": "lorysnadima@gmail.com"
+    },
+        {
+      "nome": "Dr. Marcos ",
+      "cargo": "Sócio Fundadora",
+      "descricao": "Advogado com vasta experiência em direito civil e trabalhista.",
+      "foto": "https://raw.githubusercontent.com/BrunoWil/publicsitemsm/refs/heads/main/assets/imagens/equipe/dr1.webp",
+      "linkedin": "https://www.linkedin.com/in/",
+      "email": "lorysnadima@gmail.com"
+    },
+        {
+      "nome": "Dra. Jamilla ",
+      "cargo": "Sócio Fundadora",
+      "descricao": "Advogado com vasta experiência em direito civil e trabalhista.",
+      "foto": "https://raw.githubusercontent.com/BrunoWil/publicsitemsm/refs/heads/main/assets/imagens/equipe/dra2.webp",
       "linkedin": "https://www.linkedin.com/in/",
       "email": "lorysnadima@gmail.com"
     }

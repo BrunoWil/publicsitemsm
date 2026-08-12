@@ -264,10 +264,7 @@
             display: flex;
             justify-content: center;
         }
-        #sobre > .about-text,
-        #sobre > .about-img {
-            /* evita que os filhos diretos se comportem errado */
-        }
+        /* direct children of #sobre are handled by the section flex container */
         /* wrapper interno gerado pelo Yew é direto no section,
            então fazemos o section mesmo ser o flex container */
         #sobre {
